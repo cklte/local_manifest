@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="github"
+fetch="https://github.com/" />
+
+    <remote name="device"
+            fetch="https://github.com"
+            revision="ten" />
+	
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="ten"/>
+	
+    <remote name="hardware"
+            fetch="https://github.com"
+            revision="ten"/>
+            
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="ten"/>        
+
+    <!-- Device -->
+    <project path="device/samsung/klte" name="cklte/android_device_samsung_klte" remote="github" revision="ten" />
+    <project path="device/samsung/klte-common" name="cklte/android_device_samsung_klte-common" remote="github" revision="ten" />
+    <project path="device/samsung/msm8974-common" name="cklte/android_device_samsung_msm8974-common" remote="github" revision="ten" />
+    <project path="device/samsung/qcom-common" name="cklte/android_device_samsung_qcom-common" remote="github" revision="ten" />
+       	
+    <!-- Kernel -->
+    <project path="kernel/samsung/msm8974" name="cklte/android_kernel_samsung_msm8974" remote="github" revision="ten" />
+
+    <!-- Vendor -->
+    <project path="vendor/samsung" name="cklte/proprietary_vendor_samsung" remote="github" revision="ten" />
+    
+    <!-- Hardware -->
+    <project path="hardware/samsung" name="cklte/android_hardware_samsung" remote="github" revision="ten" />
+	
+</manifest>
